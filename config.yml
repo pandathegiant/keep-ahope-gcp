@@ -1,6 +1,6 @@
 # The overall Google Cloud Project ID.  This property is mandatory
 # In case the GCP project name is different from the ID, make sure ID is used here.
-PROJECT_ID: keep-ahope
+PROJECT_ID: bphc-ahope
 
 # --------------------------------------------------------------------------------------
 # It is assumed that the CloudSQL instance we use to store data is in the same project
@@ -13,7 +13,7 @@ CLOUDSQL_REGION: us-east1
 
 # CLOUDSQL_INSTANCE_ID identifies an instance of Google Cloud SQL, which should be viewable at
 # https://console.cloud.google.com/sql/instances.  The left-most column is the instance id.
-CLOUDSQL_INSTANCE_ID: ahope-postgres-dev
+CLOUDSQL_INSTANCE_ID: ahopedb1
 
 # CLOUDSQL_CONNECTION_NAME:
 # An instance's connection name can be viewed in the Overview tab of the "Instance details" page.
@@ -77,7 +77,7 @@ APP_ID: AHOPEPARSESERVER
 # Get the OAuth Client ID here:
 # https://console.cloud.google.com/apis/credentials?project=keep-ahope&orgonly=true&supportedpurview=organizationId
 #
-OAUTH_CLIENT_ID: 888227269181-14qpprrki7r8l9b6gaknd9fle8gkas9k.apps.googleusercontent.com
+OAUTH_CLIENT_ID: 1021612351585-dnngbvhceguo6r8oh3ne5kuq6vcjq3be.apps.googleusercontent.com
 
 # Whether to allow a client to create classes (custom tables).  Default to false, but can be changed to true during development
 # ALLOW_CLIENT_CLASS_CREATION: false
